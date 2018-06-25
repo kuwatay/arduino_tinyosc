@@ -5,24 +5,24 @@ This is a quick port of tiny osc ( https://github.com/mhroth/tinyosc ) to Arduin
 
 ## Installation
 
-Download this repository and extract zip file.
-Move extracted folder to ~/Document/Arduino/Library folder. (or suitable places in your environmrnt)
-Restart Arduino IDE and you are ready.
+1. Download this repository and extract zip file.
+1. Move extracted folder to ~/Document/Arduino/Library folder. (or suitable places in your environmrnt)
+1. Restart Arduino IDE and you are ready.
 
 
 ## Usage
 
-Create a file names "wifi_config.h" which include the following
+Create a file names "wifi_config.h" which include the following;
+
+1. const char ssid[] = "YOUR_SSID";
+1. const char pass[] = "YOUR_PASSWORD";
  
-Look at examples folders in details
+Look at examples folders in details.
 
 ## Environment Tested 
 
-Arduino IDE 1.8.5
-
-esp8266 by ESP8266 Community version 2.4.1
-
-Arduino core for ESP32 WiFi chip 
-
-https://github.com/espressif/arduino-esp32
+* Arduino IDE 1.8.5
+* esp8266 by ESP8266 Community version 2.4.1
+* Arduino core for ESP32 WiFi chip 
+ at https://github.com/espressif/arduino-esp32
 
