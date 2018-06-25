@@ -12,7 +12,7 @@ This is a quick port of tiny osc ( https://github.com/mhroth/tinyosc ) to Arduin
 
 ## Usage
 
-Create a file names "wifi_config.h" which include the following;
+Create a file named "wifi_config.h" which includes the following;
 
 1. const char ssid[] = "YOUR_SSID";
 1. const char pass[] = "YOUR_PASSWORD";
