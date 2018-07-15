@@ -25,6 +25,7 @@ tinyosc tosc = tinyosc();
 
 WiFiUDP udp;
 unsigned int localPort = 9000;
+unsigned int sendPort = 9000;
 const int PACKET_SIZE = 256;
 char udpAddress[] = "192.168.1.255"; // broadcast
 char pBuffer[PACKET_SIZE];
